@@ -44,7 +44,7 @@
         justify-content: center;
     }
 
-    .main-content{
+    .main-content {
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -52,11 +52,17 @@
         align-items: stretch;
         text-align: center;
 
-        >img{
+        >img {
             align-self: center;
         }
 
-        form{
+        h2 {
+            font-size: 24px;
+            margin: 64px 0 24px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        form {
             input{
                 height: 50px;
                 border-radius: 8px;
@@ -74,7 +80,17 @@
             }
         }
 
-        .create-room{
+        p {
+            font-size: 14px;
+            color: #737380;
+            margin-top: 16px;
+            
+            a{
+                color: #e559f9
+            }
+        }
+    }
+        .create-room {
             margin-top: 64px;
             height: 50px;
             border-radius: 8px;
@@ -100,7 +116,7 @@
             }
         }
 
-        .separator{
+        .separator {
             font-size: 14px;
             color: #a8a8b3;
 
@@ -124,5 +140,5 @@
                 margin-left: 16px;
             }
         }
-    }
+    
 }
