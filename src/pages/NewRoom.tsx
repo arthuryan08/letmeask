@@ -25,7 +25,7 @@ export function NewRoom() {
 
         const firebaseRoom = await roomRef.push({
             title: newRoom,
-            authorId
+            authorId: user?.id,
         })
     }
 
